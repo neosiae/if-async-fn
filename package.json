@@ -1,0 +1,30 @@
+{
+  "name": "if-async-fn",
+  "version": "0.1.0",
+  "description": "Check if given function is asynchronous function or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.spec.js && standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neosiae/if-async-fn.git"
+  },
+  "keywords": [
+    "check",
+    "async",
+    "function",
+    "async",
+    "fn"
+  ],
+  "author": "Denis Kotlica <neosiae@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neosiae/if-async-fn/issues"
+  },
+  "homepage": "https://github.com/neosiae/if-async-fn#readme",
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "tape": "^4.10.1"
+  }
+}
