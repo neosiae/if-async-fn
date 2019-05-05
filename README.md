@@ -11,7 +11,7 @@ Check if given function is ES2017 asynchronous function or not.
 ## Usage
 
 ```javascript
-const ifAsyncFn = require('if-async-fn');
+const ifAsyncFn = require('if-async-fn')
 
 ifAsyncFn(async () => ()) // true
 
