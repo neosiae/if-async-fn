@@ -13,14 +13,28 @@ test('anonymous async function', t => {
   t.end()
 })
 
-test('sync function', t => {
+test('function', t => {
   function syncFn () {}
 
   t.equal(ifAsyncFn(syncFn), false)
   t.end()
 })
 
-test('anonymous sync function', t => {
+test('anonymous function', t => {
   t.equal(ifAsyncFn(() => {}), false)
+  t.end()
+})
+
+test('async generator', t => {
+  async function * asyncGenerator () {}
+
+  t.equal(ifAsyncFn(asyncGenerator), true)
+  t.end()
+})
+
+test('generator', t => {
+  function * asyncGenerator () {}
+
+  t.equal(ifAsyncFn(asyncGenerator), false)
   t.end()
 })
