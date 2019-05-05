@@ -1,7 +1,7 @@
 {
   "name": "if-async-fn",
-  "version": "0.1.0",
-  "description": "Check if given function is asynchronous function or not",
+  "version": "0.1.1",
+  "description": "Check if given function is ES2017 asynchronous function or not",
   "main": "index.js",
   "scripts": {
     "test": "node index.spec.js && standard"
