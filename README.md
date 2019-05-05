@@ -1,4 +1,7 @@
 # if-async-fn
+
+[![Build Status](https://travis-ci.com/neosiae/if-async-fn.svg?branch=master)](https://travis-ci.com/neosiae/if-async-fn)
+
 Check if given function is asynchronous function or not.
 
 ## Install
