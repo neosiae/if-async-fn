@@ -24,3 +24,8 @@ test('anonymous function', t => {
   t.equal(ifAsyncFn(() => {}), false)
   t.end()
 })
+
+test('type error', t => {
+  t.throws(() => ifAsyncFn(true))
+  t.end()
+})
